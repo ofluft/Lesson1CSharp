@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1Quotient", "Exercise1Quotient\Exercise1Quotient.csproj", "{FF8EEA9F-172B-400C-A896-C5361B763161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1Quotient", "Exercise1Quotient\Exercise1Quotient.csproj", "{FF8EEA9F-172B-400C-A896-C5361B763161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2ArrayCopy", "Exercise2ArrayCopy\Exercise2ArrayCopy.csproj", "{BFDA2370-F8E5-4575-8D33-F02DC573CA29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FF8EEA9F-172B-400C-A896-C5361B763161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF8EEA9F-172B-400C-A896-C5361B763161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF8EEA9F-172B-400C-A896-C5361B763161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDA2370-F8E5-4575-8D33-F02DC573CA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDA2370-F8E5-4575-8D33-F02DC573CA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDA2370-F8E5-4575-8D33-F02DC573CA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDA2370-F8E5-4575-8D33-F02DC573CA29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
