@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise2ArrayCopy", "Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3FizzBuzz", "Exercise3FizzBuzz\Exercise3FizzBuzz.csproj", "{CE27884C-89B3-4E1A-B8CE-3393D84EF746}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4MinMidValue", "Exercise4MinMidValue\Exercise4MinMidValue.csproj", "{4D55BCBE-9F1C-4502-A630-FBBC03A884EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CE27884C-89B3-4E1A-B8CE-3393D84EF746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE27884C-89B3-4E1A-B8CE-3393D84EF746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE27884C-89B3-4E1A-B8CE-3393D84EF746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D55BCBE-9F1C-4502-A630-FBBC03A884EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D55BCBE-9F1C-4502-A630-FBBC03A884EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D55BCBE-9F1C-4502-A630-FBBC03A884EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D55BCBE-9F1C-4502-A630-FBBC03A884EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
