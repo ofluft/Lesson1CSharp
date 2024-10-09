@@ -5,10 +5,20 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Введите первое число:");
-            var a = Convert.ToInt32(Console.ReadLine());
+            var a = 0;
+            if (!int.TryParse(Console.ReadLine(), out a))
+            {
+                Console.WriteLine("Введено некорректное значение");
+                return;
+            }
 
             Console.WriteLine("Введите второе число:");
-            var b = Convert.ToInt32(Console.ReadLine());
+            var b = 0;
+            if (!int.TryParse(Console.ReadLine(), out b))
+            {
+                Console.WriteLine("Введено некорректное значение");
+                return;
+            }
 
             if (b == 0)
             {

@@ -4,9 +4,9 @@ namespace Exercise3FizzBuzz
 {
     internal class Program
     {
+        private const int maxNumber = 101;
         static void Main(string[] args)
         {
-            var maxNumber = 101;
             for (int i = 1; i < maxNumber; i++)
             {
                 if ((i % 3) == 0 && (i % 5) == 0)
@@ -18,7 +18,6 @@ namespace Exercise3FizzBuzz
                 else 
                     Console.Write(i + " ");
             }
-
         }
     }
 }

@@ -7,10 +7,20 @@ namespace Exercise9Deposits
         static void Main(string[] args)
         {
             Console.WriteLine("Укажите размер вклада (рублей):");
-            var startDeposit = Convert.ToDouble(Console.ReadLine());
+            var startDeposit = 0;
+            if (!int.TryParse(Console.ReadLine(), out startDeposit))
+            {
+                Console.WriteLine("Введено некорректное значение");
+                return;
+            }
 
             Console.WriteLine("Укажите срок вклада (количество месяцев):");
-            var depositTerm = Convert.ToInt32(Console.ReadLine());
+            var depositTerm = 0;
+            if (!int.TryParse(Console.ReadLine(), out depositTerm))
+            {
+                Console.WriteLine("Введено некорректное значение");
+                return;
+            }
 
             Console.WriteLine("Расчет по вкладу:");
             int monthCounter = 1;
